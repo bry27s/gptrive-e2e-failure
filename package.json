@@ -1,0 +1,8 @@
+{
+  "name": "gptrive-e2e-failure",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node -e \"console.error('intentional test failure'); process.exit(1)\""
+  }
+}
